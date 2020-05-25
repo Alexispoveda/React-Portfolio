@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+.Header{
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header a{
+    font-size: 150%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Landing{
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Landing h1{
+    color: white;
+    font-size: 8vw;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.Landing h2{
+    color: white;
+    font-size: 7vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Social{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 5%;
 }
+
+.Social i{
+    color:white;
+    font-size: 9vw;
+    padding: 8px;
+}
+
+.Projects{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: scroll;  
+}
+
+.ProjectsContent{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    overflow-x: scroll;
+}
+
+.Project{
+    margin: 0 2vw;
+}
+
+.ProjectTab{
+    position: sticky;
+    left: 1vw;
+}
+
+.About{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.AboutText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+
+.AboutText h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3vw;
+    color: white;
+    font-weight: bold;
+}
+
+.AboutText p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 1.8vw;
+    margin-right: 10%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+img{
+    width: 60%;
+    height: 60%;
+ }
+
+@media (max-width:850px){
+    .About{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutImage{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .AboutText{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .AboutText h1{
+        font-size: 5vh;
+        margin-top: 0;
+    }
+
+    .AboutText p{
+        font-size: 3.5vw;
+        margin: 50px;
+        margin-top: 5px;
+    }
+    
+    img{
+        height: auto;
+    }
+}
+
+
+.Contact{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.material-icons{
+    color: white;
+}
+
+
+
