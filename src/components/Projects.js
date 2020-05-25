@@ -21,6 +21,8 @@ const Projects = () => {
                         cardTitle="React Portfolio" 
                         tech="react" 
                         description="Portfolio with React JS"
+                        github="https://github.com/Alexispoveda/React-Portfolio"
+                        demo="alexispoveda.com"
                         />),
 
                         (<Project  
