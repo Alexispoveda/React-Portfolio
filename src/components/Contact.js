@@ -5,7 +5,7 @@ import { Footer, FooterSection, FooterLinkList } from 'react-mdl'
 const Contact = () => {
 
     return (
-        <Footer size="mini" id="contact">
+        <Footer size="mini" id="contact" style={{backgroundColor:'black'}}>
             <FooterSection type="left" logo="Thanks for passing by!">
             </FooterSection>
             <FooterSection type="center" logo="Copyright © 2020 Alexis Iván Poveda">
@@ -19,7 +19,10 @@ const Contact = () => {
                     <a href="https://web.whatsapp.com/send?phone=50769988521" rel="noopener noreferrer" target="_blank">
                         <i className="fab fa-whatsapp" aria-hidden="true" />
                     </a>
-                    <p>(507) 69988521</p>
+                    <a>
+                    (507) 69988521
+                    </a>
+
                 </FooterLinkList>
             </FooterSection>
         </Footer>

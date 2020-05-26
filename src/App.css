@@ -23,13 +23,13 @@ height: 100vh;
 
 .Landing h1{
     color: white;
-    font-size: 8vw;
+    font-size: 7vw;
     font-weight: bold;
 }
 
 .Landing h2{
     color: white;
-    font-size: 7vw;
+    font-size: 6vw;
 }
 
 .Social{
@@ -41,8 +41,8 @@ height: 100vh;
 
 .Social i{
     color:white;
-    font-size: 9vw;
-    padding: 8px;
+    font-size: 5vw;
+    padding: 10%;
 }
 
 .Projects{
@@ -99,7 +99,7 @@ height: 100vh;
 
 .AboutText h1{
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: white;
     font-weight: bold;
 }
@@ -107,9 +107,9 @@ height: 100vh;
 .AboutText p{
     font-family: 'Noto Sans JP', sans-serif;
     color: white;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     margin-right: 10%;
-    text-align: justify;
+    text-align: left;
     line-height: 1.6;
 }
 
@@ -150,16 +150,8 @@ img{
     }
 }
 
-
-.Contact{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-}
-
 .material-icons{
     color: white;
 }
-
 
 
