@@ -11,7 +11,7 @@ const App = () =>{
 
   return(
     <div className="Page">
-    <Layout>
+    <Layout >
         <Header className="Header" title="Alexis Poveda" scroll>
             <Navigation>
                 <a href="#projects">Projects</a>
@@ -19,7 +19,7 @@ const App = () =>{
                 <a href="#contact">Contact</a>
             </Navigation>
         </Header>
-        <Drawer title="Menu" className="Drawer">
+        <Drawer title="Menu">
             <Navigation>
                 <a href="#projects">Projects</a>
                 <a href="#about">About Me</a>

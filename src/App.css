@@ -118,6 +118,10 @@ img{
     height: 60%;
  }
 
+ .material-icons{
+    opacity: 0;
+}
+
 @media (max-width:850px){
     .About{
         flex-direction: column;
@@ -148,10 +152,12 @@ img{
     img{
         height: auto;
     }
+
+    .material-icons{
+        opacity: 1;
+        color:white;
+    }
 }
 
-.material-icons{
-    color: white;
-}
 
 
