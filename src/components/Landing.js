@@ -23,6 +23,10 @@ const Landing = () =>{
                             <i className="fab fa-youtube" aria-hidden="true"/>
                         </a>
 
+                        <a href="https://www.linkedin.com/in/AlexisPoveda/" rel="noopener noreferrer" target="_blank">
+                            <i className="fab fa-linkedin" aria-hidden="true"/>
+                        </a>
+
                     </div>
                 </div>
     )
