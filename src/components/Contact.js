@@ -19,7 +19,7 @@ const Contact = () => {
                     <a href="https://web.whatsapp.com/send?phone=50769988521" rel="noopener noreferrer" target="_blank">
                         <i className="fab fa-whatsapp" aria-hidden="true" />
                     </a>
-                    <a>
+                    <a href="/">
                     (507) 69988521
                     </a>
 
