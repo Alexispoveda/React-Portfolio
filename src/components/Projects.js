@@ -49,6 +49,7 @@ const Projects = () => {
                         tech="express"
                         description="API with Express JS"
                         github="https://github.com/Alexispoveda/BibliAPI"
+                        demo="https://bibliapi-rafa.herokuapp.com/#/"
                     />
                 )
                 break;
