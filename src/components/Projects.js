@@ -75,8 +75,6 @@ const Projects = () => {
             <Tabs activeTab={TabState.activeTab} onChange={tabdId => setTabState({ activeTab: tabdId })} ripple className="ProjectTab">
                 <Tab>React</Tab>
                 <Tab>Express</Tab>
-                <Tab>MySQL</Tab>
-                <Tab>Java</Tab>
             </Tabs>
 
             {toggleCategories()}
