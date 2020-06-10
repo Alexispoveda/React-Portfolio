@@ -22,14 +22,14 @@ const Projects = () => {
                         tech="react"
                         description="Bulls & Cows adaptation in React"
                         github=""
-                        demo="thefields.web.app"
+                        demo="https://thefields.web.app"
                     />),
                     (<Project
                         cardTitle="React Portfolio"
                         tech="react"
                         description="Portfolio with React JS"
                         github="https://github.com/Alexispoveda/React-Portfolio"
-                        demo="alexispoveda.com"
+                        demo="https://alexispoveda.com"
                     />),
 
                     (<Project
