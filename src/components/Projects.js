@@ -18,6 +18,13 @@ const Projects = () => {
             case 0:
                 projects = [
                     (<Project
+                        cardTitle="The Fields"
+                        tech="react"
+                        description="Bulls & Cows adaptation in React"
+                        github=""
+                        demo="thefields.web.app"
+                    />),
+                    (<Project
                         cardTitle="React Portfolio"
                         tech="react"
                         description="Portfolio with React JS"
