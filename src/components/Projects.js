@@ -24,6 +24,7 @@ const Projects = () => {
                         github=""
                         demo="https://thefields.web.app"
                     />),
+
                     (<Project
                         cardTitle="React Portfolio"
                         tech="react"
@@ -33,12 +34,21 @@ const Projects = () => {
                     />),
 
                     (<Project
+                        cardTitle="Swaping Names"
+                        tech="react"
+                        description="Alternative Names"
+                        github="https://github.com/Alexispoveda/SwapingNames"
+                        demo="https://swapingnames.web.app"
+                    />),
+
+                    (<Project
                         cardTitle="Rainbow FANLYC"
                         tech="react"
                         description="Rainbow for FANLYC Instagram donations"
                         github="https://github.com/Alexispoveda/rainbow-fanlyc"
                         demo="https://rainbow-fanlyc.web.app/"
                     />),
+
                     (<Project
                         cardTitle="React Hamburger"
                         tech="react"
