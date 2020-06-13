@@ -12,6 +12,7 @@ const App = () =>{
   return(
     <div className="Page">
     <Layout >
+
         <Header className="Header" title="Alexis Poveda" scroll>
             <Navigation>
                 <a href="#projects">Projects</a>
@@ -19,6 +20,7 @@ const App = () =>{
                 <a href="#contact">Contact</a>
             </Navigation>
         </Header>
+
         <Drawer title="Menu">
             <Navigation>
                 <a href="#projects">Projects</a>
@@ -26,13 +28,15 @@ const App = () =>{
                 <a href="#contact">Contact</a>
             </Navigation>
         </Drawer>
+
         <Content>
         <Landing/>
             <Projects/>
             <About/>
             <Contact/>
         </Content>
-            <div/>
+        
+    <div/>
     </Layout>
 </div>
   )
