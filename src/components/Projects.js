@@ -34,9 +34,17 @@ const Projects = () => {
                     />),
 
                     (<Project
+                        cardTitle="I Do Know"
+                        tech="react"
+                        description="Randomly picks an option for you"
+                        github="https://github.com/Alexispoveda/i-do-know"
+                        demo="https://idoknow.web.app"
+                    />),
+
+                    (<Project
                         cardTitle="Swaping Names"
                         tech="react"
-                        description="Alternative Names"
+                        description="Funny Alternative Names"
                         github="https://github.com/Alexispoveda/SwapingNames"
                         demo="https://swapingnames.web.app"
                     />),
